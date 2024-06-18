@@ -58,7 +58,7 @@ jobs:
       run: sleep 10  # sleep for 10 seconds
 
     - name: List database files for debugging
-      run: docker run wikipedia-importer ls -la /app/
+      run: docker run wikipedia-importer ls -Rla /app/
 
     - name: Check database tables for debugging
       run: |
