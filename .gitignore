@@ -1,3 +1,7 @@
+# Ignore full data file
+data/enwiki-20240501-pages-articles-multistream.xml
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
