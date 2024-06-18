@@ -48,15 +48,21 @@ jobs:
     - name: Build Docker image
       run: docker build -t wikipedia-importer .
 
-    - name: Start Wikipedia Parser
-      run: docker run wikipedia-importer
+    - name: Initialize Database
+      run: docker run wikipedia-importer python scripts/starter.py
 
-    - name: Run Wikipedia Parser
+    - name: Start Wikipedia Parser
       run: docker run wikipedia-importer python scripts/wiki_parser.py data/example_wikipedia-articles.xml
 
     - name: Sleep to ensure parser completion
-      run: sleep 30  # sleep for 30 seconds
+      run: sleep 10  # sleep for 10 seconds
+
+    - name: List database files for debugging
+      run: docker run wikipedia-importer ls -la /app/
+
+    - name: Check database tables for debugging
+      run: |
+        docker run wikipedia-importer sqlite3 wikipedia.db ".tables"
 
     - name: Run Wiki Searcher
-      run: |
-        docker run wikipedia-importer python scripts/wiki_searcher.py "example search query"
+      run: docker run wikipedia-importer python scripts/wiki_searcher.py "Politic"
