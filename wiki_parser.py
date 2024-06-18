@@ -4,7 +4,12 @@ import sqlite3
 import sys
 import time
 import re
+import json
+
+import argparse
+
 from utils import get_connection, remove_specific_tags
+from page_counter import counter_
 
 
 def save_checkpoint(last_page_id, conn, c):
@@ -54,7 +59,7 @@ def parse_sections(parsed_content, is_redirect):
 
     return sections
 
-def parse_dump(file_path):
+def parse_dump(file_path, total_pages_file=None):
     conn = get_connection()
     c = conn.cursor()
     
@@ -62,7 +67,14 @@ def parse_dump(file_path):
     count = 0
     start_time = time.time()
     prev_time = start_time
-    prev_count = 0
+
+    # Load total pages from JSON file
+    if total_pages_file:
+        json_path = total_pages_file
+        with open(json_path, 'r') as f:
+            total_pages = json.load(f)["total_pages"]
+    else:
+        total_pages = 0
 
     last_page_id = load_checkpoint()
     skip = last_page_id is not None
@@ -101,8 +113,8 @@ def parse_dump(file_path):
                     type_ = 'text'
 
                 try:
-                    c.execute('INSERT INTO articles (title, is_redirect, type) VALUES (?, ?, ?)', 
-                              (title, is_redirect, type_))
+                    c.execute('INSERT INTO articles (article_id, title, is_redirect, type) VALUES (?, ?, ?, ?)', 
+                              (page.id, title, is_redirect, type_))
                     article_id = c.lastrowid
 
                     # Insert sections
@@ -125,7 +137,9 @@ def parse_dump(file_path):
                     elapsed_time = current_time - start_time
                     pages_per_second = count / elapsed_time
                     
-                    print(f'\rImported {count} pages so far, {pages_per_second:.2f} pages per second',end='')
+
+                    percentage_complete = (count / total_pages) * 100
+                    print(f'\rImported {count} pages so far, {pages_per_second:.2f} pages per second, {percentage_complete:.2f}% complete')
                     
                     # Update previous time and count for the next derivative calculation
                     prev_time = current_time
@@ -142,7 +156,7 @@ def parse_dump(file_path):
                 
                 # Print a page title and the first 500 characters of its content every 1000 pages
                 if count % 1000 == 0:
-                    print(f'\nPage {page.id}: {title}')
+                    print(f'\nPage {count}: {title}')
                     print(''.join(parsed_content[:500]))
 
     save_checkpoint(page.id, conn, c)
@@ -173,14 +187,20 @@ def validate_checkpoint(file_path):
 
     conn.close()
 
-# Path to your extracted XML file
-file_path = r'data\example_wikipedia-articles.xml'
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Process Wikipedia dump file.")
+    parser.add_argument("file_path", help="Path to the extracted XML file")
+    args = parser.parse_args()
 
-# Import pages
-parse_dump(file_path)
+    file_path = args.file_path
+    output_path = file_path.replace(".xml", "_pageCount.json")
 
-# Validate checkpoint
-validate_checkpoint(file_path)
+    counter_(input_file_path=file_path, output_json_path=output_path)
 
-print('\nValidation completed.')
+    # Import pages
+    parse_dump(file_path=file_path, total_pages_file=output_path)
 
+    # Validate checkpoint
+    validate_checkpoint(file_path)
+
+    print('\nValidation completed.')
