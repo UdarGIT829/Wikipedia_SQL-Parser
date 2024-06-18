@@ -1,4 +1,6 @@
 import sqlite3
+import re
+import json
 
 def get_connection():
     conn = sqlite3.connect('wikipedia.db')
@@ -8,8 +10,6 @@ def get_connection():
     conn.execute('PRAGMA mmap_size=30000000000;')  # Adjust based on your system's memory
     return conn
 
-import re
-import json
 
 def remove_specific_tags(text):
     """
