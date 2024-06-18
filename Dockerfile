@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Run the specified command within the container
-CMD ["cd", "scripts;","ls"]
+CMD ["python", "./scripts/starter.py"]

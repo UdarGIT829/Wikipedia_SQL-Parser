@@ -51,6 +51,9 @@ jobs:
     - name: Run Wikipedia Parser
       run: docker run wikipedia-importer
 
+    - name: Run Wikipedia Parser 2
+      run: docker run wikipedia-importer python scripts/wiki_parser.py data/example_wikipedia-articles.xml
+
     - name: Run Wiki Searcher
       run: |
         docker run wikipedia-importer python scripts/wiki_searcher.py "example search query"
