@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 80
 
 # Run the specified command within the container
-CMD ["python", "scripts/starter.py;","python", "scripts/wiki_parser.py", "data/example_wikipedia-articles.xml"]
+CMD ["python", "app/scripts/starter.py;","python", "app/scripts/wiki_parser.py", "app/data/example_wikipedia-articles.xml"]
