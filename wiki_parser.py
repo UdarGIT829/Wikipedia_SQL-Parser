@@ -125,15 +125,7 @@ def parse_dump(file_path):
                     elapsed_time = current_time - start_time
                     pages_per_second = count / elapsed_time
                     
-                    # Calculate derivative of the rate
-                    time_diff = current_time - prev_time
-                    count_diff = count - prev_count
-                    if prev_time - start_time == 0:
-                        rate_diff = 0
-                    else:
-                        rate_diff = (count_diff / time_diff) - (prev_count / (prev_time - start_time))
-                    
-                    print(f'\rImported {count} pages so far, {pages_per_second:.2f} pages per second, rate change: {rate_diff:+.2f} pages per second²',end='')
+                    print(f'\rImported {count} pages so far, {pages_per_second:.2f} pages per second',end='')
                     
                     # Update previous time and count for the next derivative calculation
                     prev_time = current_time
