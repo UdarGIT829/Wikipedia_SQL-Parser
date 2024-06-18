@@ -170,8 +170,8 @@ def parse_dump(file_path, total_pages_file=None):
                     save_checkpoint(page.id, conn, c)
                     conn.commit()
                 
-                # Vacuum the database every 100,000 entries
-                if count % 100000 == 0:
+                # Vacuum the database every 500,000 entries
+                if count % 500000 == 0:
                     print(f"\nVacuuming the database after {count} entries...")
                     conn.execute('VACUUM;')
                     print("Vacuum completed.")
