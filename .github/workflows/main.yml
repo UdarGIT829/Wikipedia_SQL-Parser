@@ -51,9 +51,6 @@ jobs:
     - name: Start Wikipedia Parser
       run: docker run wikipedia-importer
 
-    - name: Initialize Tables
-      run: docker run wikipedia-importer python scripts/starter.py
-
     - name: Run Wikipedia Parser
       run: docker run wikipedia-importer python scripts/wiki_parser.py data/example_wikipedia-articles.xml
 

@@ -13,5 +13,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Make port 80 available to the world outside this container
 EXPOSE 80
 
-# Run the specified command within the container
-CMD ["python", "./scripts/starter.py"]
+# # Run the specified command within the container
+# CMD ["python", "./scripts/starter.py"]
