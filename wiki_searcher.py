@@ -1,3 +1,5 @@
+import argparse
+
 from utils import get_connection
 
 # Search functions
@@ -66,8 +68,11 @@ def general_search(query, limit=100):
         "category_results": [{'title':iter_cat_results[0], 'page_id':iter_cat_results[1]} for iter_cat_results in category_results],
     }
 
-# Example usage
 if __name__ == "__main__":
-    query = "Politic"
+    parser = argparse.ArgumentParser(description="Search Wikipedia articles.")
+    parser.add_argument("query", help="Search query for Wikipedia articles")
+    args = parser.parse_args()
+
+    query = args.query
     results = general_search(query)
     print(results)
