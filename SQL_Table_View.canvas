@@ -1,0 +1,27 @@
+{
+	"nodes":[
+		{"id":"03bbfc8659d50587","type":"group","x":195,"y":-401,"width":645,"height":301,"label":"Table: Articles"},
+		{"id":"dc232ea71875d1ce","type":"group","x":195,"y":20,"width":400,"height":480,"label":"Table: Article_sections"},
+		{"id":"1820cdada1e5f31f","type":"group","x":960,"y":-397,"width":289,"height":242,"label":"Table: Article_categories"},
+		{"id":"012032917a4c1cad","type":"group","x":960,"y":20,"width":289,"height":200,"label":"Table: Categories"},
+		{"id":"4ae4e7ecb7f6f5b8","type":"text","text":"id: Unique ID","x":240,"y":-360,"width":166,"height":60,"color":"2"},
+		{"id":"97b4cbf98ce2125c","type":"text","text":"title: TEXT","x":260,"y":-300,"width":166,"height":60,"color":"3"},
+		{"id":"b34b5288fa00d53b","type":"text","text":"type: Optional(text,categories,isRedirect,categories&redirect)","x":260,"y":-240,"width":540,"height":60,"color":"3"},
+		{"id":"8544f5670a283470","type":"text","text":"isRedirect: BOOL","x":260,"y":-180,"width":204,"height":50,"color":"3"},
+		{"id":"4192b631555461ef","type":"text","text":"article_id: Foreign Key","x":1029,"y":-360,"width":166,"height":60,"color":"4"},
+		{"id":"3bcf8d5578fc2ba1","type":"text","text":"category_id: Foreign Key","x":1029,"y":-270,"width":166,"height":60,"color":"4"},
+		{"id":"126cc3daf3b014b9","type":"text","text":"id: Unique ID","x":240,"y":60,"width":166,"height":60,"color":"2"},
+		{"id":"8fd83248579da55e","type":"text","text":"article_id: Foreign Key","x":240,"y":120,"width":258,"height":60,"color":"4"},
+		{"id":"8f6d6a9fb9387f1c","type":"text","text":"id: Unique ID","x":998,"y":60,"width":166,"height":60,"color":"2"},
+		{"id":"4b57b5f5c7f08fef","type":"text","text":"title: TEXT","x":1029,"y":120,"width":166,"height":60,"color":"3"},
+		{"id":"e1df50629e4dd3de","type":"text","text":"section_order: INTEGER","x":259,"y":180,"width":259,"height":60,"color":"3"},
+		{"id":"00d910642fda5f4d","type":"text","text":"section_title: TEXT","x":259,"y":240,"width":220,"height":60,"color":"3"},
+		{"id":"15391e2ca7c4bf6b","type":"text","text":"section_content: TEXT","x":259,"y":300,"width":238,"height":60,"color":"3"},
+		{"id":"3de40e0ff9fdb093","type":"text","text":"wikitables: TEXT","x":259,"y":360,"width":238,"height":60,"color":"3"}
+	],
+	"edges":[
+		{"id":"09acd59d28f67b14","fromNode":"8fd83248579da55e","fromSide":"left","toNode":"4ae4e7ecb7f6f5b8","toSide":"left","color":"4"},
+		{"id":"c8c32cc70ae09e7b","fromNode":"4192b631555461ef","fromSide":"left","toNode":"4ae4e7ecb7f6f5b8","toSide":"right","color":"4"},
+		{"id":"d1ebc2d0479d8a1a","fromNode":"3bcf8d5578fc2ba1","fromSide":"right","toNode":"8f6d6a9fb9387f1c","toSide":"right","color":"4"}
+	]
+}

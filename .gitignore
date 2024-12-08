@@ -3,7 +3,7 @@ data/enwiki-20240501-pages-articles-multistream.xml
 data/*.json
 
 # Ignore generated datafile
-wikipedia.db
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

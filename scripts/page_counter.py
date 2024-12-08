@@ -29,6 +29,7 @@ def count_pages(file_path):
     count = 0
     start_time = time.time()
     
+    page=None
     for page in dump:
         count += 1
         
@@ -36,6 +37,9 @@ def count_pages(file_path):
             elapsed_time = time.time() - start_time
             pages_per_second = count / elapsed_time
             print(f'Counted {count} pages so far, {pages_per_second:.2f} pages per second\r', end="")
+    print("___Example___")
+    print(f"Type:\t{type(page)}")
+    print(f"Page:\t{page}")
 
     return count
 

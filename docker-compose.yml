@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  wiki-parser:
+    build: .
+    volumes:
+      - ./data:/app/data
+      - ./scripts:/app/scripts
+      - ./db_files:/app/db_files
+    environment:
+      - PYTHONUNBUFFERED=1

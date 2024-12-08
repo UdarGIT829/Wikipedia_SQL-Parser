@@ -4,14 +4,12 @@ FROM python:3.9-slim
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the current directory contents into the container at /app
-COPY . /app
-
-# Install any needed packages specified in requirements.txt
+# Install dependencies
+COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Make port 80 available to the world outside this container
-EXPOSE 80
+# Copy the scripts directory
+COPY scripts ./scripts
 
-# # Run the specified command within the container
-# CMD ["python", "./scripts/starter.py"]
+# Run the script
+CMD ["python3", "scripts/wiki_parser.py", "data/enwiki-20240501-pages-articles-multistream.xml", "5"]

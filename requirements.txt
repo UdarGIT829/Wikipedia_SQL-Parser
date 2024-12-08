@@ -1,2 +1,14 @@
-mwxml
-mwparserfromhell
+attrs==23.2.0
+docopt==0.6.2
+jsonable==0.3.1
+jsonschema==4.23.0
+jsonschema-specifications==2023.12.1
+mwcli==0.0.3
+mwparserfromhell==0.6.6
+mwtypes==0.4.0
+mwxml==0.3.4
+numpy==2.0.1
+para==0.0.8
+psutil
+referencing==0.35.1
+rpds-py==0.19.1

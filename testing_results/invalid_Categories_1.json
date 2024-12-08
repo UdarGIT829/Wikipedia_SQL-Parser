@@ -1,0 +1,238 @@
+{
+  "Category:Articles needing {{#if:{{{1|}}}|{{#ifexist:Category:Articles needing {{{1}}} IPA|{{{1}}}}}}} IPA": [
+    ["Needs IPA/cat", 64690435]
+  ],
+  "Category:{{Resolve category redirect|{{#ifexist:Category:WikiProject {{{1}}} user templates|WikiProject {{{1}}} user templates|{{#ifexist:Category:WikiProject {{{1}}} templates|WikiProject {{{1}}} templates|WikiProject {{{1}}}}}}}}}": [
+    ["User WP/switch", 66772648]
+  ],
+  "Category:Redirects from {{#ifexist:Category:Redirects from {{#invoke:Lang|name_from_tag|{{{1|{{{from|{{{lang|}}}}}}}}}}}-language terms\n  | {{#invoke:Lang|name_from_tag|{{{1|{{{from|{{{lang|}}}}}}}}}}}\n  | non-English\n }}-language terms": [
+    ["R from alternative language", 586555],
+    ["R from alternative language/sandbox", 33218294]
+  ],
+  "Category:Redirects to {{#ifexist:Category:Redirects to {{#invoke:Lang|name_from_tag|{{{2|{{{to}}}}}}}}-language terms\n  | {{#invoke:Lang|name_from_tag|{{{2|{{{to}}}}}}}}\n  | non-English\n }}-language terms": [
+    ["R from alternative language", 586555],
+    ["R from alternative language/sandbox", 33218294]
+  ],
+  "Category:{{#ifexist: Category:Grade {{{grade}}} {{{ds|listed building}}}s in {{{location}}} \n|Grade {{{grade}}} |}} {{{ds|listed building}}}s in {{{location}}}": [
+    ["Listed building England", 44729443]
+  ],
+  "Category:{{{cat_override|{{#ifexist:Category:dashboard.wikiedu.org courses, {{#titleparts: {{PAGENAME}}|1|2}}|{{resolve category redirect|dashboard.wikiedu.org courses, {{#titleparts: {{PAGENAME}}|1|2}}}}|dashboard.wikiedu.org courses, unknown institution}}}}}": [
+    ["Dashboard.wikiedu.org course header", 47130362]
+  ],
+  "Category:Redirects transliterated from {{#ifexist:Category:Redirects from {{#invoke:Lang|name_from_tag|{{{1|{{{from|{{{lang|}}}}}}}}}}}\n  | {{#invoke:Lang|name_from_tag|{{{1|{{{from|{{{lang|}}}}}}}}}}}\n  | non-English\n }}-language terms": [
+    ["R to transliteration", 72034908]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Tokugawa clan]]\n[[Category:T\u014dsh\u014d-g\u016b]]yfts]]\n[[Category:Draft articles]]\n}}": [
+    ["Tokugawa family mausoleums", 72819037]
+  ],
+  "Category:{{draft categories|[[Category:wikipwikipedia draftsedia drafts]]\n[[Category:Draft articles]]\n}}": [
+    ["Taiwanese of Zhangzhou descent", 73248623]
+  ],
+  "Category:{{draft categories|[[Category:politics of Japan]]}}": [
+    ["Lord of Home Affairs", 73268918]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:WikiWikipedia draftspedia drafts]]\n}}": [
+    ["Creatura (theology)", 73271482]
+  ],
+  "Category:{{draft categories|[[Category:wikipedia drafts]]\n[[Category:Buddhist theology]]\n}}": [
+    ["Traiyadhvika", 73272061]
+  ],
+  "Category:{{draft categories|[[category:drafts]]\n[[Category:Mantras]]\n}}": [
+    ["Shingon (Mantra)", 73272082]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Kamakura period]]\n[[Category:Wikipe/dia drafts]]\n[[Category:Wikipedi drafts]]\n}}": [
+    ["Kamakura Buddhism", 73272084]
+  ],
+  "Category:{{draft categories|[[Category:Japanese scholars]]}}": [
+    ["\u014ckuni Takamasa", 73275053]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:History of Confucianism]]\n[[Category:Wikipedia drfts]]\n}}": [
+    ["Exclusive Confucianism", 73277651]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]}}": [
+    ["Qin law", 73277656],
+    ["Moscow Main Archive", 73305914],
+    ["Doctor of the five classics", 73656660],
+    ["T\u014dnomine", 73686656],
+    ["K\u014dkyo Higashi-gyoen", 73834239],
+    ["Mankind", 74024524]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Wikidpedia drafts]]\n}}": [
+    ["Fraction of the Day", 73282517]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Wikipddedia drafts]]\n}}": [
+    ["Svetlana Grigorievna Semyonova", 73297566]
+  ],
+  "Category:{{draft categories|[[Category:Edo period]]\n[[Category:Bakumatsu]]\n[[Category:Revolution]]\n[[Category:Wikipeddddia drafts]]\n}}": [
+    ["Defeat the Shogunate Movement", 73301222]
+  ],
+  "Category:{{draft categories|[[Category:wikipedddia drafts]]\n[[Category:Draft articles]]\n[[Category:Education in Russdua]]\n}}": [
+    ["Tambov Men's Gymnasium", 73305900]
+  ],
+  "Category:{{draft categories|[[Category:Wikipedfia drafts]]\n[[Category:Nunneries]]\n[[Category:Cultural heritage monuments in Moscow]]\n[[Category:Monasteries in Moscow]]\n[[Category:Russian Orthodox monasteries in Russia]]\n}}": [
+    ["Skorbyashchensky Monastery", 73305919]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Wikipedia dWikipedia drafts\nrafts]]\n}}": [
+    ["Nikolai Pavlovich Peterson", 73305933]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Draft articles]]\n[[Category:Wikipedidfa drafts]]\n}}": [
+    ["Viktor Gaidukov", 73308826]
+  ],
+  "Category:{{draft categories|[[Category:Myojin Taisha]]\n[[Category:Shinto shrines in Osaka Prefecture]]\n[[Category:Fuken-sha]]\n[[Category:Draft articles]]\n}}": [
+    ["Onji Shrine", 73331417]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:History of China]]\n[[Category:History of Korea]]\n}}": [
+    ["Korean influence on Chinese culture", 73346367]
+  ],
+  "Category:{{draft categories|[[category:drafts]]\n[[Category:Bumping is back but only bump on Monday and Tuesday, this ensures deletion messages only come in on weekends where I have time to reasonably look over them  Previous bumping worked by adding [[:Category:wikipedia vdrafts]] but that was overused. So now addiing [[:Category:draft articles]] is the new one  As with the previous the idea behind this is that this designates any given draft to happen on a specific weekend day. A draft cannot be bumped twice, so they cannot end up floating to the top with being rebumped.  == Draft notes == Due to [[Wikipedia:Categories for discussion/Log/2023 July 21#Category:Secondary School Kanji]] almost all Joyo kanji here have the exact same expiration date. On January 8 they will all simultaneously go onto my talk page, and on February 8 they will all be simultaneously deleted.  I\u2019ll have a later time around February 17 to March 17  where initially a glut of [[kyoiku kanji]] will come, followed by a lot of articles I bumped during the ani over the kanji, either over attempting to make them presentable and submittable or over bumping ones that would pop up in the weeks after October 22 so I\u2019d have more time to get articles complete before getting bombarded with g13 deletions I\u2019d no longer be able to stop.  On Monday November 27, 2023 I started bumping again These bumped articles will have their g17 warnings on Saturday April 27, 2024  I will bump again on Tuesday November 28, 2023,  These bumped articles will have their g17 warnings on Sunday April 28, 2024  I updated the draft table to the derived from tools one rather than the derived from talk page one, since enough were already bumped it was irrelevant that they came from the talk page  I needed to clear a large portion of drafts out so the page size limit was not exceeded. When I get my draft count down to 2,946 drafts I believe it will be good to have all drafts in the table. Definitely on January 8 redo this table  == [[User:Immanuelle]] ==  Generated using [https://xtools.wmcloud.org/pages/en.wikipedia.org/Immanuelle/118/noredirects/live XTools] on 2023-11-27 19:01  {| class=\"wikitable sortable\" ! # ! Page title ! Date ! Original size ! Current size ! Assessment ! Links ]]\n|draft}}": [
+    ["Miyazaki Gokoku Shrine", 73446165]
+  ],
+  "Category:{{draft categories|[[Category:drafts]]\n[[Category:Draft articles]]\n}}": [
+    ["Andrzej Szyjewski", 73446882]
+  ],
+  "Category:{{draft categories|[[Category:Japanese Buddhist Monks]]\n[[Category:Japanese Buddhist clergy]]\n[[Category:Draft articles]]\n}}": [
+    ["Bunkan", 73448352]
+  ],
+  "Category:{{draft categories|[[Category:Shinto kami]]\n[[Category:Kotohira shrines]]\n[[Category:Wikipedia dwikipedia draftsrafts]]\n}}": [
+    ["Kotohira no Okami", 73464858]
+  ],
+  "Category:{{draft categories|[[Category:Wikipedia drafts]]\n[[Category:Draft articles]]\n}}": [
+    ["Ikeda Toshitaka", 73467697]
+  ],
+  "Category:{{draft categories|[[Category:drafts]][[ja:{{PAGENAME}}]][[zh:{{PAGENAME}}]][[fr:{{PAGENAME}}]][[uk:{{PAGENAME}}]] dd<ref>https://example.com</ref>}}": [
+    ["Izanagi and Izanami family tree", 73608218]
+  ],
+  "Category:{{draft categories|[[Category:Timekeeping in Japan]]\n[[Category:Physical calendars]]\n[[Category:Astrology in Japan]]\n[[Category:Calendars]]\n[[Category:Shinto]]\n[[Category:Ise Grand Shrine]]\n[[Category:History of Mie Prefecture]]\n}}": [
+    ["Jing\u016b calendar", 73639259]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\n[[Category:History of the Japanese language]]\n[[Category:Austronesian languages]]\n[[Category:Proto-languages]]\n[[Category:Draft articles]]\n}}": [
+    ["Proto-Austro-Japanese", 73656681]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\n[[Category:Tajima Province]]\n[[Category:Diplomatics]]\n[[Category:708]]\n[[Category:8th-century books]]\n[[Category:Wikipwikipedia draftsedia drafts]]\n}}": [
+    ["Awaga Dai Myojin Genki", 73662339]
+  ],
+  "Category:{{draft categories|[[Category:Isonokami Shrine]]\n[[Category:WikipediaWikipedia drafts\n drafts]]\n[[Category:Draft articles]]\n}}": [
+    ["Tokusa-no-Kandakara", 73664932]
+  ],
+  "Category:{{draft categories|[[Category:Russia]]\n[[Category:Nikolai Fyodorov]]\n[[Category:Cosmism]]\n[[Category:1905 books]]\n[[Category:Wikipedia drasfts]]\n}}": [
+    ["Philosophy of common task", 73677492]
+  ],
+  "Category:{{draft categories|[[Category:Russia]]\n[[Category:Cosmism]]\n[[Category:Russian mycologists]]\n}}": [
+    ["Mykola Naumov", 73677510]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\n[[Category:Tottori Prefecture]]\n[[Category:Japanese qarlords]]\n[[Category:Wikipedia drafts]]\n[[Category:Draft articles]]\n}}": [
+    ["Ikeda Mitsunaka", 73677551]
+  ],
+  "Category:{{draft categories|[[Category: Buddhist monks]]\n[[Category:Japanese Buddhist monks]]\n[[Category:Fujiwara clan]]\n[[Category:7th-century Buddhist monks]]\n[[Category:Asuka period Buddhist clergy]]\n[[Category:Yogacara]]\n[[Category:Nakatomi clan]]\n[[Category:Japanese ambassadors to the Tang dynasty]]\n[[Category:643 births]]\n[[Category:666 deaths]]\n[[Category:Draft articles]]\n[[Category:Wikipedia drafts]]\n}}": [
+    ["Jo'e", 73686654]
+  ],
+  "Category:{{draft categories|[[Category:Japanese clans]]\n[[Category:WikipeWikipedia drafts\ndia drafts]]\n}}": [
+    ["Toda clan", 73698891]
+  ],
+  "Category:{{draft categories|[[Category:Japanese people]]\n[[Category:Wikipedia drafts]]\n}}": [
+    ["Masajiro Takigawa", 73710290]
+  ],
+  "Category:{{draft categories|[[Category:Confucianism in the United States]]\n[[Category:Boston University faculty]]\n[[Category:Wikipedia drafts]]\n}}": [
+    ["John Berthrong", 73717085]
+  ],
+  "Category:{{draft categories|[[Category:Japanese goddesses]]\n[[Category:Draft articles]]\n}}": [
+    ["Kisagaihime and Umugihime", 73738439]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\nWikipedia drafts[[Category:Japanese clans]]\n}}": [
+    ["Sarume clan", 73741574]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines by tradition]]\n[[Category:Akiha faith]]\n[[Category:Draft articles]]\n}}": [
+    ["Akiha shrine", 73747568]
+  ],
+  "Category:{{draft categories|[[Category:Shinto kami]]\n[[Category:Japanese gods]]\n[[Category:Water goddesses]]\n}}": [
+    ["Ame-no-mikumari-no-kami", 73747641]
+  ],
+  "Category:{{draft categories|[[Category:Japanese deities]][[Category:Shinto kami]]\n[[Category:Japanese goddesses]]\n}}": [
+    ["Mihika-hime", 73793305]
+  ],
+  "Category:{{draft categories|[[Category:Draft articles]]}}": [
+    ["Nikabe Shrine", 73797135]
+  ],
+  "Category:{{draft categories|[[Category:Kunitama]]\n[[Category:Draft articles]]\n}}": [
+    ["Amerika Kokudo Kunitama-no-Kami", 73860808]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines in Japan]]}}": [
+    ["Rokuon Shrine", 73935550],
+    ["Mimi Shrine", 74166851],
+    ["Ashizumi Shrine", 74166855],
+    ["Kayanarumi Shrine", 74166857],
+    ["Haniyamahimi Shrine", 74166859]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines in Japan]]\n[[Category:Draft articles]]\n[[Category:Miwa shrines]]\n}}": [
+    ["Miwa Shrine (Fuefuki City)", 73935558]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines in Japan]]\n[[Category:Draft staggering]]\n}}": [
+    ["Kawakagi Shrine", 73935561]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines in Japan]]\n[[Category:Draft articles]]\n}}": [
+    ["Ninomiya Shrine (Akiruno City)", 73935566]
+  ],
+  "Category:{{draft categories|[[Category:Shinto shrines in Japan]]\n[[Category:Draft articles]]\n[[Category:Hitachi Province]]\n}}": [
+    ["Shizumi Shrine", 73935573]
+  ],
+  "Category:{{draft categories|[[Category:Kanji]]}}": [["\u8bbe", 73943907]],
+  "Category:{{{media_type}}} by {{If|exist|Category: {{{media_type}}} by {{{nationality}}} {{{profession}}}s<!--\n    -->|{{{nationality}}} {{{profession}}}s<!--\n    -->|{{{profession}}}<!--\n    -->}}": [
+    ["Category works by person/core", 73980221]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\n[[Category:Yamato Province]]\n[[Category:Wikipediaf drafts]]\n[[Category:Yamato clan]]\n}}": [
+    ["Yamato no Agoko", 74165977]
+  ],
+  "Category:{{draft categories|[[Category:Japanese clans]]}}": [
+    ["Hozumi clan", 74166956],
+    ["Nukatabe clan", 74166973]
+  ],
+  "Category:{{draft categories|[[Category:Japanese clans]]\n[[Category:Yagi clan]]\n}}": [
+    ["Yagi clan", 74166958]
+  ],
+  "Category:{{draft categories|[[Category:Kamo clan]]\n[[Category:People of Kofun-period Japan]]\n[[Category:People of ancient Japan]]\n[[Category:Miwa clan]]\n}}": [
+    ["Okamotsumi", 74166960]
+  ],
+  "Category:{{draft categories|[[Category:Japanese clans]]\n[[Category:History of Nagano Prefecture]]\n[[Category:History of Saitama Prefecture]]\n}}": [
+    ["Achi clan", 74166962]
+  ],
+  "Category:{{draft categories|[[Category:Kuni no miyatsuko families]]\n[[Category:Shake clans]]\n[[Category:Musashi Province]]\n[[Category:History of Saitama Prefecture]]\n}}": [
+    ["Chichibu no Kuni no Miyatsuko", 74166964]
+  ],
+  "Category:{{draft categories|[[Category:Kuni no miyatsuko families]]\n[[Category:Shake clans]]\n}}": [
+    ["Ki no Kuni no Miyatsuko", 74166970]
+  ],
+  "Category:{{draft categories|[[Category:wikidpedia drafts]]}}": [
+    ["Hiokibe clan", 74166972]
+  ],
+  "Category:{{draft categories|[[Category:Deified Japanese people in the Kiki]]\n[[Category:People of ancient Japan]]\n[[Category:Kuni no miyatsuko position holders]]\n[[Category:Yamato clan]]\n[[Category:Kunitsukami]]\n}}": [
+    ["Saonetsuhiko", 74167117]
+  ],
+  "Category:{{draft categories|[[Category:wifkipedia drafts]]}}": [
+    ["Kanda Zaisan", 74839434]
+  ],
+  "Category:{{draft categories|[[Category:Japan]]\n[[Category:Yamato no Aya clan]]\n}}": [
+    ["Yamato no Aya no Koma", 74927610]
+  ],
+  "Category:{{draft categories|[[Category:Sea and river deities]]\n[[Category:Kunitsukami]]\n[[Category:Hachiman faith]]\n[[Category:Japanese goddesses]]\n}}": [
+    ["Tagitsuhime", 74975049]
+  ],
+  "Category:{{draft categories|[[Category:Shinto kami]]}}": [
+    ["Amemichihime", 75073519]
+  ],
+  "Category:{{draft categories|[[Category:Kofun]]\n[[Category:Fujidera]]\n[[Category:[[ja:\u4ef2\u30c4\u5c71\u53e4\u58b3]]\n[[Category:Zenpokoenfun]]\n[[Category:Japanese imperial tombs]]\n]]\n}}": [
+    ["Nakatsuyama Kofun", 75098759]
+  ],
+  "Category:{{draft categories|[[Category:Nakatomi clan]]}}": [
+    ["Igatsuomi no Mikoto", 75153631]
+  ],
+  "Category:{{#switch:{{lc:}}\n  |fairuse=fair use|fairuse logo=fair use|chart=graph\n  |alphabet|chemical|circuit|coat of arms|diagram|emblem|fair use|flag\n  |graph|logo|map|music|physical|symbol={{lc:}}\n  |icon=symbol\n  |#default={{#if:|{{#ifexist:Category:{{{subof}}} images that should be in SVG format|{{{subof}}}}}}}}} images that should be in SVG format{{#if:|{{!}}* |{{!}}{{SUBPAGENAME}}}}": [
+    ["SimpliSafe Logo 2018.png", 56670071]
+  ],
+  "Category:{{Resolve category redirect|{{#switch:{{{nation}}}\n      |Austrian|Austro-Hungarian=Austrian and Austro-Hungarian\n      |Czech|Czechoslovakian=Czech and Czechoslovakian\n      |Russian|Soviet={{#ifexist:Category:{{{nation}}} {{{type}}}|{{{nation}}}|Soviet and Russian}}\n      |PRC=Chinese\n      |Taiwanese=Chinese\n      |Yugoslav|Serbian=Yugoslav and Serbian\n      |international=International\n      |#default={{{nation}}}<!-- end switch\n    -->}} {{{type}}}|#{{{1}}}<!--\n-->}}": [
+    ["Airntd", 4550752]
+  ],
+  "Category:{{#switch:{{lc:{{{subof|}}}}}\n  |fairuse=fair use|fairuse logo=fair use|chart=graph\n  |alphabet|chemical|circuit|coat of arms|diagram|emblem|fair use|flag\n  |graph|logo|map|music|physical|symbol={{lc:{{{subof|}}}}}\n  |icon=symbol\n  |#default={{#if:{{{subof|}}}|{{#ifexist:Category:{{{subof}}} images that should be in SVG format|{{{subof}}}}}}}}} images that should be in SVG format{{#if:{{{1|}}}|{{!}}* {{{1|}}}|{{!}}{{SUBPAGENAME}}}}": [
+    ["Should be SVG", 5494943],
+    ["Should be SVG/sandbox", 39190213]
+  ]
+}
